@@ -1,0 +1,18 @@
+abstract class ChatoRegisterStates{}
+
+class ChatoRegisterInitialState extends ChatoRegisterStates{}
+class ChatoRegisterISuccessState extends ChatoRegisterStates{}
+class ChatoRegisterIErrorState extends ChatoRegisterStates{}
+
+class ChatoCreateISuccessState extends ChatoRegisterStates{}
+class ChatoCreateIErrorState extends ChatoRegisterStates{}
+
+class ChatoCreateDatabaseSuccessState extends ChatoRegisterStates{}
+class ChatoCreateDatabaseErrorState extends ChatoRegisterStates{}
+class ChatoOpenDatabaseSuccessState extends ChatoRegisterStates{}
+
+class ChatoInsertDatabaseSuccessState extends ChatoRegisterStates{}
+class ChatoInsertDatabaseErrorState extends ChatoRegisterStates{}
+
+class ChatoGetDatabaseSuccessState extends ChatoRegisterStates{}
+class ChatoGetDatabaseErrorState extends ChatoRegisterStates{}
